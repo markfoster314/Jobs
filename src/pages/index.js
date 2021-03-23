@@ -7,6 +7,7 @@ import Footer from '../components/Footer';
 import Social from '../components/Social';
 
 import demo1 from '../assets/images/demo-screen-1.jpg';
+import demo2 from '../assets/images/profile-image.png';
 import gplay from '../assets/images/google-play-badge.svg';
 import astore from '../assets/images/app-store-badge.svg';
 
@@ -20,9 +21,11 @@ const IndexPage = () => (
           <div className="col-lg-7 my-auto">
             <div className="header-content mx-auto">
               <h1 className="mb-5">
-                New Age is an gatsby starter for app landing page that will help
-                you beautifully showcase your new mobile app, or anything else!
+                The College Marketplace
               </h1>
+              <h3 className="mb-5">
+                Shop goods and services with your classmates!
+              </h3>
               <Scroll type="id" element="download">
                 <a href="#download" className="btn btn-outline btn-xl">
                   Start Now for Free!
@@ -51,11 +54,12 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-md-8 mx-auto">
             <h2 className="section-heading">
-              Discover what all the buzz is about!
+              Discover what all the hype is about!
+              {/* Join Ticker Number of Users */}
             </h2>
             <p>
-              Our app is available on any mobile device! Download now to get
-              started!
+              Our app is available on any mobile device, download now to get
+              started
             </p>
             <div className="badges">
               <a className="badge-link" href="/#">
@@ -73,9 +77,9 @@ const IndexPage = () => (
     <section className="features" id="features">
       <div className="container">
         <div className="section-heading text-center">
-          <h2>Unlimited Features, Unlimited Fun</h2>
+          <h2>Upgrade Your College Experience</h2>
           <p className="text-muted">
-            Check out what you can do with this app theme!
+            Check out what you can do with Job$!
           </p>
           <hr />
         </div>
@@ -85,7 +89,7 @@ const IndexPage = () => (
               <div className="device-mockup iphone6_plus portrait white">
                 <div className="device">
                   <div className="screen">
-                    <img src={demo1} className="img-fluid" alt="" />
+                    <img src={demo2} className="img-fluid" alt="" />
                   </div>
                   <div className="button"></div>
                 </div>
@@ -98,20 +102,18 @@ const IndexPage = () => (
                 <div className="col-lg-6">
                   <div className="feature-item">
                     <i className="icon-screen-smartphone text-primary"></i>
-                    <h3>Device Mockups</h3>
+                    <h3>Make Some Cash</h3>
                     <p className="text-muted">
-                      Ready to use HTML/CSS device mockups, no Photoshop
-                      required!
+                      Hook your classmates up with a ride, some tutoring or whatever you feel like and watch your account balance rise
                     </p>
                   </div>
                 </div>
                 <div className="col-lg-6">
                   <div className="feature-item">
                     <i className="icon-camera text-primary"></i>
-                    <h3>Flexible Use</h3>
+                    <h3>Find the Help You Need</h3>
                     <p className="text-muted">
-                      Put an image, video, animation, or anything else in the
-                      screen!
+                      Need something in a pinch? Get some help on Job$
                     </p>
                   </div>
                 </div>
@@ -120,20 +122,18 @@ const IndexPage = () => (
                 <div className="col-lg-6">
                   <div className="feature-item">
                     <i className="icon-present text-primary"></i>
-                    <h3>Free to Use</h3>
+                    <h3>Snag Deals</h3>
                     <p className="text-muted">
-                      As always, this theme is free to download and use for any
-                      purpose!
+                      Save money at your favorite local spots 
                     </p>
                   </div>
                 </div>
                 <div className="col-lg-6">
                   <div className="feature-item">
                     <i className="icon-lock-open text-primary"></i>
-                    <h3>Open Source</h3>
+                    <h3>Shop and Sell</h3>
                     <p className="text-muted">
-                      Since this theme is MIT licensed, you can use it
-                      commercially!
+                      Turn your clutter into cash and find your college necessities at a discount
                     </p>
                   </div>
                 </div>
@@ -144,30 +144,12 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section className="cta">
-      <div className="cta-content">
-        <div className="container">
-          <h2>
-            Stop waiting.
-            <br />
-            Start building.
-          </h2>
-          <Scroll type="id" element="contact">
-            <a href="#contact" className="btn btn-outline btn-xl">
-              Let's Get Started!
-            </a>
-          </Scroll>
-        </div>
-      </div>
-      <div className="overlay"></div>
-    </section>
-
     <section className="contact bg-primary" id="contact">
       <div className="container">
         <h2>
-          We
+          We&nbsp;
           <i className="fas fa-heart"></i>
-          new friends!
+          &nbsp;new friends!
         </h2>
         <Social />
       </div>

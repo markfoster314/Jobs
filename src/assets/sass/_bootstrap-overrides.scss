@@ -16,15 +16,15 @@
 
 .btn-outline {
     color: white;
-    border: 1px solid;
-    border-color: white;
+    border-color: $theme-primary;
+    background-color: $theme-primary;
     &:hover,
     &:focus,
     &:active,
     &.active {
-        color: white;
+        color: $theme-primary;
         border-color: $theme-primary;
-        background-color: $theme-primary;
+        background-color: white;
     }
 }
 

@@ -43,34 +43,34 @@
         border-color: transparent;
         background-color: transparent;
         .navbar-brand {
-            color: fade(white, 70%);
+            color: $theme-primary;
             &:hover,
             &:focus {
-                color: white;
+                color: $gray-darker;
             }
         }
         .navbar-nav > li > a,
         .navbar-nav > li > a:focus {
-            color: fade-out(white, .3);
+            color: $theme-primary;
             &:hover {
-                color: white;
+                color: $gray-darker;
             }
         }
         &.navbar-shrink {
             border-color: fade-out($gray-darker, .9);
             background-color: white;
             .navbar-brand {
-                color: $gray-darker;
+                color: $theme-primary;
                 &:hover,
                 &:focus {
-                    color: $theme-primary;
+                    color: $gray-darker;
                 }
             }
             .navbar-nav > li > a,
             .navbar-nav > li > a:focus {
-                color: $gray-darker;
+                color: $theme-primary;
                 &:hover {
-                    color: $theme-primary;
+                    color: $gray-darker;
                 }
             }
         }

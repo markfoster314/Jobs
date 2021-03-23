@@ -4,17 +4,17 @@ export default function Footer() {
   return (
     <footer>
       <div className="container">
-        <p>&copy; Gatsby Starter New Age 2019. All Rights Reserved.</p>
+        <p>&copy; Copyright 2021 Jobs, Inc. All Rights Reserved</p>
         <ul className="list-inline">
           <li className="list-inline-item">
-            <a href="/#">Privacy</a>
+            <a href="/privacy">Privacy</a>
           </li>
           <li className="list-inline-item">
-            <a href="/#">Terms</a>
+            <a href="/tos">Terms</a>
           </li>
-          <li className="list-inline-item">
+          {/* <li className="list-inline-item">
             <a href="/#">FAQ</a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </footer>

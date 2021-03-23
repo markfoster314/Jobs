@@ -1,7 +1,7 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter New age', // <title>
-  manifestName: 'newage',
-  manifestShortName: 'Landing', // max 12 characters
+  siteTitle: 'JOB$', // <title>
+  manifestName: 'JOB$',
+  manifestShortName: 'JOB$', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
@@ -11,24 +11,24 @@ module.exports = {
   // social
   socialLinks: [
     {
-      icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      icon: 'fa-instagram',
+      name: 'Instagram',
+      url: 'https://www.instagram.com/jobs_marketplace_app/',
     },
     {
       icon: 'fa-linkedin-in',
       name: 'Linkedin',
-      url: 'https://linkedin.com/in/theanubhav/',
+      url: 'https://www.linkedin.com/company/jobsmarketplace',
     },
     {
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      url: 'https://twitter.com/JobsMarketplace',
     },
     {
       icon: 'fa-facebook-f',
       name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      url: 'https://www.facebook.com/JobsMarketplaceLLC',
     },
   ],
 };

@@ -6,6 +6,12 @@ module.exports = {
     title: config.siteTitle,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: "landingpage-jobs",
+      },
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
